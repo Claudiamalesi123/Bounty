@@ -175,10 +175,3 @@ The following diagram illustrates the workflow of the delete user functionality 
 In summary, allowing user deletion functionality after authentication is necessary but not sufficient. Proper authorization checks must also be in place to ensure that only users with the appropriate permissions can delete other users. Authentication verifies identity, while authorization ensures that the authenticated user has the right to perform the requested action.
 
 ---
-
-
-- **Server Setup**: The Express server listens on port `4001` and serves the HTML page while handling user deletion requests.
-
-By combining these backend and frontend functionalities in `deleteUsercombinedCode.js`, the file provides a complete solution for user deletion, handling server-side logic and client-side interaction seamlessly.
-
---- 
